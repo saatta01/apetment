@@ -1,0 +1,15 @@
+.results-div {
+  background-color: #FAF9FA;
+}
+
+.selection {
+  padding-top: 20px;
+  font-size: 1.15rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.apartment-results {
+  margin-left: 10px;
+  margin-right: 10px;
+}

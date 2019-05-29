@@ -1,0 +1,13 @@
+.apt-card {
+  margin: 40px 20px 80px 20px !important;
+  display: inline-block !important;
+}
+
+.apt-banner {
+    width:  auto;
+    height: 100%;
+}
+
+.image-banner {
+  height: 200px;
+}

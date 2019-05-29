@@ -1,0 +1,24 @@
+.intro {
+  /* center child content horizontally and vertically */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  min-height: 400px;
+}
+
+.background-overlay {
+  position: absolute;
+  background-color: rgba(0,0,0,0.2);
+  z-index: -5;
+  height: 100%;
+  width: 100%;
+  top: -1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.ui.inverted.header {
+  font-size: 3.5em;
+}
