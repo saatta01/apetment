@@ -1,7 +1,7 @@
 // const path = require('path');
 // require('dotenv').config({path:'/Users/21256384/Documents/ReactUdemy/apetment/.env', debug: process.env.DEBUG});
-require('dotenv').config()
-Initialize Firebase
+require('dotenv').config();
+// Initialize Firebase
 
   export const DB_CONFIG = {
     apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
