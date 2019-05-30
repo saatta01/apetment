@@ -2,6 +2,10 @@
   "name": "apetment",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "6.9.0",
+    "node": "12.1.0"
+  },
   "dependencies": {
     "dotenv": "^8.0.0",
     "firebase": "^5.10.1",
