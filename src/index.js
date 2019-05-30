@@ -26,9 +26,9 @@ class App extends React.Component {
 
     // this.firebaseapp = firebase.initializeApp(DB_CONFIG);
     if (!firebase.apps.length) {
-      this.firebaseapp = firebase.initializeApp(DB_CONFIG);
+      firebase.initializeApp(DB_CONFIG);
     }
-    this.database = this.firebaseapp.database().ref();
+    this.database = firebase.database().ref();
 
     this.state = {
       cities: [],
